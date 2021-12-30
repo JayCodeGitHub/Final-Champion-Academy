@@ -61,7 +61,7 @@ function Slider({
                 alt={titleone}
               />
               <div className="absolute top-0 text-white lg:w-1/3 w-full h-full lg:pt-40 pt-28 lg:ml-32 px-16 lg:px-0">
-                <h1 className="w-full text-5xl py-8 pl-4 text-primary">
+                <h1 className="w-full text-4xl lg:text-5xl py-8 pl-4 text-primary">
                   {titleone}
                 </h1>
                 <h2 className="w-full lg:text-xl text-lg py-8 text-gray-300">
@@ -86,7 +86,7 @@ function Slider({
                 alt={titletwo}
               />
               <div className="absolute top-0 text-white lg:w-1/3 w-full h-full lg:pt-40 pt-28 lg:ml-32 px-16 lg:px-0">
-                <h1 className="w-full text-5xl py-8 pl-4 text-primary">
+                <h1 className="w-full text-4xl lg:text-5xl py-8 pl-4 text-primary">
                   {titletwo}
                 </h1>
                 <h2 className="w-full lg:text-xl text-lg py-8 text-gray-300">
@@ -111,7 +111,7 @@ function Slider({
                 alt={titlethree}
               />
               <div className="absolute top-0 text-white lg:w-1/3 w-full h-full lg:pt-40 pt-28 lg:ml-32 px-16 lg:px-0">
-                <h1 className="w-full text-5xl py-8 pl-4 text-primary">
+                <h1 className="w-full text-4xl lg:text-5xl py-8 pl-4 text-primary">
                   {titlethree}
                 </h1>
                 <h2 className="w-full lg:text-xl text-lg py-8 text-gray-300">
