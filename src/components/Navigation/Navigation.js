@@ -68,7 +68,7 @@ const animacje = [
     href: "/Animacje/Chill-Room",
   },
   {
-    name: "Urodzinki Dla Dziedzka",
+    name: "Urodzinki Dla Dziecka",
     href: "/Animacje/Urodziny",
   },
 ]
