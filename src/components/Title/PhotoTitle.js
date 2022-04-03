@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 const PhotoTitle = ({ title, photo }) => (
   <>
     <div className="w-full lg:h-60 h-32 relative bg-gray-900">
-      <h1 className="w-full h-full lg:text-5xl text-4xl text-white absolute flex items-center justify-center">
+      <h1 className="w-full h-full lg:text-5xl text-2xl text-center text-white absolute flex items-center justify-center">
         {title}
       </h1>
       <img
