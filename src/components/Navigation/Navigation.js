@@ -23,8 +23,8 @@ const sport = [
     href: "/Sport/Fitness",
   },
   {
-    name: "Treningi Personalne",
-    href: "/Sport/Treningi-Personalne",
+    name: "Sport Dla Przedszkoli",
+    href: "/Sport/Przedszkola",
   },
   {
     name: "Gimnastyka Korekcyjna",
@@ -319,11 +319,11 @@ function Navigation() {
                 )}
               </Popover>
               <Link
-                to="/Przedszkola"
+                to="/Cennik"
                 className="text-base font-medium text-white hover:text-primary"
                 activeClassName="text-primary"
               >
-                Przedszkola
+                Cennik
               </Link>
               <a
                 target="_blank"
@@ -591,12 +591,12 @@ function Navigation() {
                       )}
                     </Popover>
                     <Link
-                      to="/Przedszkola"
+                      to="/Cennik"
                       className="-m-3 p-3 flex items-center rounded-md text-white hover:bg-gray-500 hover:text-primary"
                       activeClassName="text-primary"
                     >
                       <span className="ml-3 text-base font-medium">
-                        Przedszkola
+                        Cennik
                       </span>
                     </Link>
                     <a

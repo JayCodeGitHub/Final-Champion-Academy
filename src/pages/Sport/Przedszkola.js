@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
-import PageLayout from "../Layouts/PageLayout"
-import ContentLayout from "../Layouts/ContentLeyuot"
+import PageLayout from "../../Layouts/PageLayout"
+import ContentLayout from "../../Layouts/ContentLeyuot"
 
 const PrzedszkolaPage = ({ data }) => {
   return (
