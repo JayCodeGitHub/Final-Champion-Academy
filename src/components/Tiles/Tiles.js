@@ -4,9 +4,9 @@ import PropTypes from "prop-types"
 const Tiles = ({ title, description, photoone, phototwo, photothree }) => (
   <>
     <div className=" w-full 2xl:px-44 px-0 ">
-      <div className=" lg:h-28 h-36 px-4 flex items-center justify-center text-4xl text-primary ">
+      <h1 className=" lg:h-28 h-36 px-4 flex items-center justify-center text-4xl text-primary ">
         {title}
-      </div>
+      </h1>
       <div className="lg:h-80 lg:flex lg:justify-between lg:items-center 2xl:px-4 lg:px-16 md:px-32 px-8">
         <div className="2xl:w-96 lg:w-72 w-full flex items-center justify-center">
           <img
@@ -30,7 +30,7 @@ const Tiles = ({ title, description, photoone, phototwo, photothree }) => (
           />
         </div>
       </div>
-      <div className="lg:h-80 text-gray-400 text-2xl lg:px-16 px-6 flex justify-center items-center">
+      <div className="lg:indent-10 indent-5 lg:h-80 text-gray-400 text-2xl lg:px-16 px-6 flex justify-center items-center">
         {description}
       </div>
     </div>

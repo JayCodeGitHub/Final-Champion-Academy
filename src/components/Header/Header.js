@@ -8,7 +8,7 @@ const Header = ({ title, description, button, photo, href }) => (
         <div className="w-full h-1/5 pl-24 flex items-center text-3xl">
           {title}
         </div>
-        <div className="w-full h-3/5 flex justify-center pt-8 px-14 xl:text-xl text-lg text-gray-400">
+        <div className="w-full h-3/5 flex justify-center pt-8 px-10 xl:text-xl text-lg text-gray-400 lg:indent-10 indent-5">
           {description}
         </div>
         {button.length ? (
