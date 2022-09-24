@@ -3,9 +3,9 @@ import PropTypes from "prop-types"
 
 const Title = ({ title }) => (
   <>
-    <div className=" w-full flex justify-center  lg:pl-0 items-center text-primary py-9 lg:text-3xl text-2xl">
+    <h1 className=" w-full flex justify-center  lg:pl-0 items-center text-primary py-9 lg:text-3xl text-2xl">
       {title}
-    </div>
+    </h1>
   </>
 )
 

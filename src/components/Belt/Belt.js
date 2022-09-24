@@ -6,12 +6,12 @@ const Belt = ({ title, description, button, href }) => (
   <>
     <div className=" w-full h-80 bg-primary xl:px-20">
       <div className="w-full h-1/2">
-        <div className="w-full h-1/2 flex justify-center items-center text-black text-3xl">
+        <h2 className="w-full h-1/2 flex justify-center items-center text-black text-3xl">
           {title}
-        </div>
-        <div className="w-full h-1/2 flex justify-center items-center text-white px-4 md:text-4xl text-center text-2xl">
+        </h2>
+        <p className="w-full h-1/2 flex justify-center items-center text-white px-4 md:text-4xl text-center text-2xl">
           {description}
-        </div>
+        </p>
       </div>
       <div className="w-full h-1/2 flex justify-center items-center">
         <Link to={href}>
