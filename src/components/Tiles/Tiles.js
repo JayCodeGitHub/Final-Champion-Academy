@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 const Tiles = ({ title, description, photoone, phototwo, photothree }) => (
   <>
-    <div className=" w-full 2xl:px-44 px-0 ">
+    <div className="w-full lg:my-0 my-8 2xl:px-44 px-0">
       <h2 className=" lg:h-28 h-36 px-4 flex items-center justify-center text-4xl text-primary ">
         {title}
       </h2>
