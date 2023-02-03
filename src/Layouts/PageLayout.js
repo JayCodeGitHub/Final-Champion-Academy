@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import styled from "styled-components"
 import Navigation from "../components/Navigation/Navigation"
 import Footer from "../components/Footer/Footer"
+import Author from "../components/Author/Author"
 import "../index.css"
 
 const Wrapper = styled.div`
@@ -26,6 +27,7 @@ const PageLayout = ({ children }) => (
     </NavigationWrapper>
     <Wrapper>{children}</Wrapper>
     <Footer />
+    <Author/>
   </>
 )
 
