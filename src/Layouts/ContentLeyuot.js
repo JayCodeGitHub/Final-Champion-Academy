@@ -13,22 +13,20 @@ function ContentLayout({ data, page }) {
   return (
     <>
       {data.content.map(item => {
-        const itemKey = Object.keys(item)[0]
-        console.log(item)
-        switch (itemKey) {
-          case "title":
+        switch (item.__typename) {
+          case "DatoCmsTitle":
             return <Title title={item.title} />
-          case "paragraph":
+          case "DatoCmsParagraph":
             return <Paragraph paragraph={item.paragraph} />
-          case "titleprimary":
+          case "DatoCmsTitleprimary":
             return <TitlePrimary title={item.title} />
-          case "phototitle":
+          case "DatoCmsPhototitle":
             return <PhotoTitle title={item.title} photo={item.photo.url} />
-          case "photo":
+          case "DatoCmsPhoto":
             return <Photo photo={item.photo.url} />
-          case "list":
+          case "DatoCmsList":
             return <List item={item.listitem} />
-          case "header":
+          case "DatoCmsHeader":
             return (
               <Header
                 title={item.title}
@@ -38,7 +36,7 @@ function ContentLayout({ data, page }) {
                 href={item.href}
               />
             )
-          case "belt":
+          case "DatoCmsBelt":
             return (
               <Belt
                 title={item.title}
@@ -47,7 +45,7 @@ function ContentLayout({ data, page }) {
                 href={item.href}
               />
             )
-          case "tile":
+          case "DatoCmsTile":
             return (
               <Tiles
                 title={item.title}

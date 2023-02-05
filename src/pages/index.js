@@ -56,16 +56,20 @@ export const query = graphql`
       content {
         ... on DatoCmsTitle {
           title
+          __typename
         }
         ... on DatoCmsParagraph {
           paragraph
+          __typename
         }
         ... on DatoCmsList {
           list
+          __typename
           listitem
         }
         ... on DatoCmsHeader {
           header
+          __typename
           button
           description
           href
@@ -76,6 +80,7 @@ export const query = graphql`
         }
         ... on DatoCmsBelt {
           belt
+          __typename
           button
           description
           href
@@ -83,6 +88,7 @@ export const query = graphql`
         }
         ... on DatoCmsPhototitle {
           phototitle
+          __typename
           title
           photo {
             url
@@ -90,6 +96,7 @@ export const query = graphql`
         }
         ... on DatoCmsTile {
           tile
+          __typename
           title
           description
           photoone {
@@ -104,12 +111,14 @@ export const query = graphql`
         }
         ... on DatoCmsTitleprimary {
           titleprimary
+          __typename
           title
         }
         ... on DatoCmsPhoto {
           photo {
             url
           }
+          __typename
         }
       }
     }
